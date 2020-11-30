@@ -60,20 +60,36 @@
  .ms-welcome__features.ms-List .ms-ListItem > .ms-Icon {
      margin-right: 10px;
  }
+
+ .ms-Button {
+    background-color: #0078d7;
+    color: white;
+    border-radius: 5px;
+    padding: 6px;
+    margin: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+.ms-Button:hover {
+    background-color: rgb(172, 172, 172);
+    color: white !important;
+}
  
  .ms-welcome__action.ms-Button--hero {
      margin-top: 30px;
  }
  
 .ms-Button.ms-Button--hero .ms-Button-label {
-  color: #0078d7;
+  /* color: #0078d7; */
 }
 
-.ms-Button.ms-Button--hero:hover .ms-Button-label,
+/* .ms-Button.ms-Button--hero:hover .ms-Button-label,
 .ms-Button.ms-Button--hero:focus .ms-Button-label{
   color: #005a9e;
   cursor: pointer;
-}
+} */
 
 b {
     font-weight: bold;
